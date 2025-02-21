@@ -23,7 +23,7 @@ import { FooterComponent } from './components/footer/footer.component';
       #container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 1fr 10fr 1fr;
+        grid-template-rows: 1fr 8fr 2fr;
         min-height: 100vh;
         grid-template-areas:
           'nav nav nav'
