@@ -4,12 +4,14 @@ import { Component } from '@angular/core';
   selector: 'app-footer',
   imports: [],
   template: `
-    <p>
-      footer works!
-    </p>
+    <footer class="bottom-0 left-0 z-20 w-full p-4 ">
+      <span
+        class="flex justify-center text-sm  text-gray-500  dark:text-gray-400 "
+      >
+        © 2025 Adopta una mascota. Todos los derechos reservados
+      </span>
+    </footer>
   `,
-  styles: ``
+  styles: ``,
 })
-export class FooterComponent {
-
-}
+export class FooterComponent {}
