@@ -106,7 +106,7 @@ export class MascotaService {
         'Nala es un perro de 4 años que le gusta jugar con sus amigos.',
     },
     {
-      id: 1,
+      id: 12,
       name: 'Max',
       type: 'perro',
       age: 3,
