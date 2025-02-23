@@ -16,7 +16,7 @@ import { Component } from '@angular/core';
           />
           <span
             class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
-            >Adopta una mascota</span
+            >AdoptaUnaMascota</span
           >
         </a>
         <button

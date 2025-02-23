@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
       <span
         class="flex justify-center text-sm  text-gray-500  dark:text-gray-400 "
       >
-        © 2025 Adopta una mascota. Todos los derechos reservados
+        ©2025 AdoptaUnaMascota. Todos los derechos reservados
       </span>
     </footer>
   `,

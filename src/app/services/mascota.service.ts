@@ -13,106 +13,104 @@ export class MascotaService {
       age: 3,
       image: 'assets/dog-6.jpg',
       description:
-        'Max es un perro de 3 años que le gusta jugar con sus amigos.',
+        'Max es un perro juguetón que disfruta de los paseos en el parque.',
     },
     {
       id: 2,
-      name: 'Luna',
-      type: 'gato',
-      age: 2,
-      image: 'assets/cat-5.jpg',
-      description:
-        'Luna es un gato de 2 años que le gusta jugar con sus amigos.',
-    },
-    {
-      id: 3,
-      name: 'Nala',
-      type: 'perro',
-      age: 4,
-      image: 'assets/dog-2.jpg',
-      description:
-        'Nala es un perro de 4 años que le gusta jugar con sus amigos.',
-    },
-    {
-      id: 4,
-      name: 'Luna',
+      name: 'Bella',
       type: 'gato',
       age: 2,
       image: 'assets/cat-2.jpg',
       description:
-        'Luna es un gato de 2 años que le gusta jugar con sus amigos.',
+        'Bella es una gata curiosa que le encanta explorar su entorno.',
     },
     {
-      id: 5,
-      name: 'Nala',
+      id: 3,
+      name: 'Rocky',
       type: 'perro',
       age: 4,
-      image: 'assets/dog-3.jpg',
-      description:
-        'Nala es un perro de 4 años que le gusta jugar con sus amigos.',
+      image: 'assets/dog-2.jpg',
+      description: 'Rocky es un perro leal con un gran sentido de la aventura.',
     },
     {
-      id: 6,
-      name: 'Luna',
+      id: 4,
+      name: 'Milo',
       type: 'gato',
       age: 2,
       image: 'assets/cat-3.jpg',
       description:
-        'Luna es un gato de 2 años que le gusta jugar con sus amigos.',
+        'Milo es un gato travieso que siempre está buscando algo con que jugar.',
     },
     {
-      id: 7,
-      name: 'Nala',
+      id: 5,
+      name: 'Buddy',
       type: 'perro',
       age: 4,
-      image: 'assets/dog-4.jpg',
+      image: 'assets/dog-3.jpg',
       description:
-        'Nala es un perro de 4 años que le gusta jugar con sus amigos.',
+        'Buddy es un perro amigable que disfruta conocer nuevas personas.',
     },
     {
-      id: 8,
-      name: 'Luna',
+      id: 6,
+      name: 'Coco',
       type: 'gato',
       age: 2,
       image: 'assets/cat-4.jpg',
       description:
-        'Luna es un gato de 2 años que le gusta jugar con sus amigos.',
+        'Coco es una gata elegante que prefiere los lugares tranquilos y soleados.',
     },
     {
-      id: 9,
-      name: 'Nala',
+      id: 7,
+      name: 'Charlie',
       type: 'perro',
       age: 4,
-      image: 'assets/dog-5.jpg',
+      image: 'assets/dog-4.jpg',
       description:
-        'Nala es un perro de 4 años que le gusta jugar con sus amigos.',
+        'Charlie es un perro energético que adora correr en el jardín.',
     },
     {
-      id: 10,
-      name: 'Luna',
+      id: 8,
+      name: 'Lola',
       type: 'gato',
       age: 2,
       image: 'assets/cat-5.jpg',
       description:
-        'Luna es un gato de 2 años que le gusta jugar con sus amigos.',
+        'Lola es una gata juguetona que siempre está buscando atención.',
+    },
+    {
+      id: 9,
+      name: 'Zeus',
+      type: 'perro',
+      age: 4,
+      image: 'assets/dog-5.jpg',
+      description:
+        'Zeus es un perro fuerte y valiente que protege a su familia.',
+    },
+    {
+      id: 10,
+      name: 'Simba',
+      type: 'gato',
+      age: 2,
+      image: 'assets/cat-5.jpg',
+      description:
+        'Simba es un gato aventurero que le encanta trepar a los árboles.',
     },
     {
       id: 11,
-      name: 'Nala',
+      name: 'Buster',
       type: 'perro',
       age: 4,
       image: 'assets/dog-6.jpg',
-      description:
-        'Nala es un perro de 4 años que le gusta jugar con sus amigos.',
+      description: 'Buster es un perro cariñoso que disfruta de las caricias.',
     },
     {
       id: 12,
-      name: 'Max',
+      name: 'Rex',
       type: 'perro',
       age: 3,
-      image: 'assets/dog-3.jpg',
+      image: 'assets/dog-2.jpg',
       description:
-        'Max es un perro de 3 años que le gusta jugar con sus amigos.',
+        'Rex es un perro curioso que siempre está listo para una aventura.',
     },
   ];
   constructor() {}
