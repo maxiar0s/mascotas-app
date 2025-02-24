@@ -1,14 +1,16 @@
-import { Component, Input } from '@angular/core';
-import { MascotaInterface } from '../../interfaces/mascota-interface';
+import { Component } from '@angular/core';
+import { MascotaService } from '../../services/mascota.service';
+import { inject } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-mascota',
-  imports: [],
+  imports: [CommonModule],
   template: `
     <div
       class="grid place-content-center gap-2 grid-cols-2 w-11/12 mb-1 mt-1 md:grid-cols-3 md:w-5/6 md:gap-3 lg:grid-cols-4 lg:w-10/12 lg:gap-4 "
     >
-      @for(mascota of mascotas; track mascota.id){
+      @for(mascota of mascotas$ | async; track mascota.id){
       <div
         class="grid rounded-lg shadow-xl shadow-gray-950"
         id="containerMascotas"
@@ -38,5 +40,6 @@ import { MascotaInterface } from '../../interfaces/mascota-interface';
   }`,
 })
 export class MascotaComponent {
-  @Input() mascotas: MascotaInterface[] = [];
+  private mascotaService = inject(MascotaService);
+  mascotas$ = this.mascotaService.getAllMascotas();
 }
